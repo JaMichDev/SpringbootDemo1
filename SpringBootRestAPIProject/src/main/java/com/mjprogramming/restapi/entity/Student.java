@@ -24,7 +24,7 @@ public class Student {
 	    @Column(name = "stuemail", nullable = false, unique = true, length = 120)
 	    private String stuemail;
 	    @Column(name = "stuphone", length = 30)
-	    private String stuphone;
+	    private String stuphone;  //
 		public Long getStuid() {
 			return stuid;
 		}
